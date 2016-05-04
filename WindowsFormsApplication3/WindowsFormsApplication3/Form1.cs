@@ -20,6 +20,8 @@ namespace WindowsFormsApplication3
     public partial class Form1 : Form
 
     {
+        string executable = System.Reflection.Assembly.GetExecutingAssembly().Location;
+
         string prop = "";
         string owner = "";
         string propAddress = "";
@@ -30,9 +32,12 @@ namespace WindowsFormsApplication3
         public Form1()
         {
             InitializeComponent();
+            string path = (System.IO.Path.GetDirectoryName(executable));
+            AppDomain.CurrentDomain.SetData("DataDirectory", path);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+
             // TODO: This line of code loads data into the 'newTestDataSet.MasterPropList' table. You can move, or remove it, as needed.
             this.masterPropListTableAdapter.Fill(this.newTestDataSet.MasterPropList);
             // TODO: This line of code loads data into the 'newTestDataSet.Vendors' table. You can move, or remove it, as needed.
@@ -222,11 +227,7 @@ namespace WindowsFormsApplication3
         private void tEnabled(bool state)
         {
             /*
-            tCompany.Enabled = state;
-            tFirstname.Enabled = state;
-            tPhone.Enabled = state;
-            tLastname.Enabled = state;
-            //btnLogo.Enabled = state;
+            Testing things here
             */
         }
         private void button1_Click(object sender, EventArgs e)
