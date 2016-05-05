@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace WindowsFormsApplication3 {
+namespace ContractGen {
     
     
     /// <summary>
@@ -23702,7 +23702,7 @@ namespace WindowsFormsApplication3 {
         }
     }
 }
-namespace WindowsFormsApplication3.NewTestDataSetTableAdapters {
+namespace ContractGen.NewTestDataSetTableAdapters {
     
     
     /// <summary>

@@ -7,8 +7,8 @@
     <ProjectGuid>{B5D843BE-D7E7-4AD4-AF30-D5C3838D4C7F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsFormsApplication3</RootNamespace>
-    <AssemblyName>WindowsFormsApplication3</AssemblyName>
+    <RootNamespace>ContractGen</RootNamespace>
+    <AssemblyName>ContractGen</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -70,6 +70,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="NewTestDataSet.xsc">
       <DependentUpon>NewTestDataSet.xsd</DependentUpon>

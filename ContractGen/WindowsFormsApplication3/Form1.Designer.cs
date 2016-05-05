@@ -171,7 +171,6 @@
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Vendor";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textContractDate
             // 
@@ -260,7 +259,6 @@
             this.textDollarWords.Name = "textDollarWords";
             this.textDollarWords.Size = new System.Drawing.Size(381, 20);
             this.textDollarWords.TabIndex = 18;
-            this.textDollarWords.TextChanged += new System.EventHandler(this.textDollarWords_TextChanged);
             // 
             // label6
             // 
@@ -270,7 +268,6 @@
             this.label6.Size = new System.Drawing.Size(52, 13);
             this.label6.TabIndex = 19;
             this.label6.Text = "$ As Text";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
